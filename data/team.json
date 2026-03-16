@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "James Mitchell",
+    "role": "Managing Director",
+    "bio": "20+ years in international real estate. Former RICS certified surveyor.",
+    "image": "/images/team/james.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Sophie Laurent",
+    "role": "Head of Sales",
+    "bio": "Specialist in luxury residential and cross-border transactions.",
+    "image": "/images/team/sophie.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Marco Rossi",
+    "role": "Investment Advisor",
+    "bio": "Focus on commercial and multi-family investments across Europe.",
+    "image": "/images/team/marco.jpg"
+  }
+]

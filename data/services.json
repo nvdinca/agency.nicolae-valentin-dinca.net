@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sales",
+    "title": "Sales",
+    "description": "Full-service residential and commercial sales. We handle marketing, viewings, negotiations, and closing so you can focus on your next move.",
+    "icon": "Home"
+  },
+  {
+    "id": "letting",
+    "title": "Lettings",
+    "description": "End-to-end lettings management: tenant sourcing, contracts, rent collection, and maintenance. Maximise yield with minimal hassle.",
+    "icon": "Key"
+  },
+  {
+    "id": "management",
+    "title": "Property Management",
+    "description": "Ongoing management for owners and investors. Inspections, repairs, compliance, and reporting—all in one place.",
+    "icon": "Building"
+  },
+  {
+    "id": "investment",
+    "title": "Investment Advisory",
+    "description": "Data-driven advice on where and what to buy. We help you build a portfolio that matches your goals and risk profile.",
+    "icon": "TrendingUp"
+  },
+  {
+    "id": "consultancy",
+    "title": "Consultancy",
+    "description": "Valuations, market reports, and strategic advice for developers, funds, and institutional clients.",
+    "icon": "FileText"
+  }
+]

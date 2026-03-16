@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "description": "Prime central London and Greater London. Residential and commercial opportunities in one of the world's leading financial centres.",
+    "listingCount": 12
+  },
+  {
+    "slug": "paris",
+    "name": "Paris & Île-de-France",
+    "country": "France",
+    "description": "Paris city and surrounding regions. From historic apartments to new-build family homes and commercial assets.",
+    "listingCount": 8
+  },
+  {
+    "slug": "berlin",
+    "name": "Berlin",
+    "country": "Germany",
+    "description": "Berlin's dynamic market: residential, mixed-use, and emerging neighbourhoods with strong rental demand.",
+    "listingCount": 6
+  },
+  {
+    "slug": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "description": "Amsterdam and Randstad. Canal-side homes, modern apartments, and prime office space.",
+    "listingCount": 5
+  },
+  {
+    "slug": "costa-brava",
+    "name": "Costa Brava",
+    "country": "Spain",
+    "description": "Coastal Spain at its best. Villas, apartments, and land for holiday and permanent living.",
+    "listingCount": 9
+  },
+  {
+    "slug": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "description": "Lisbon and Greater Lisbon. Golden visa properties, historic centre, and suburban family homes.",
+    "listingCount": 7
+  }
+]

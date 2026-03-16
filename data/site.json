@@ -1,0 +1,17 @@
+{
+  "name": "Global Real Estate Agency",
+  "tagline": "Your trusted partner in premium real estate",
+  "currency": "EUR",
+  "currencyNote": "All prices in EUR",
+  "contact": {
+    "email": "hello@primerealty.example",
+    "phone": "+1 234 567 890",
+    "address": "123 Business Avenue, London, UK",
+    "timezone": "We reply within 24h (GMT)"
+  },
+  "social": {
+    "linkedin": "#",
+    "twitter": "#",
+    "instagram": "#"
+  }
+}

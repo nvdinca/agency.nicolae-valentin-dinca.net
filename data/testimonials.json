@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "quote": "Professional from start to finish. They found us the perfect family home in record time.",
+    "author": "Sarah & David K.",
+    "location": "London, UK",
+    "rating": 5
+  },
+  {
+    "id": "2",
+    "quote": "As an international investor, I needed an agency that understood cross-border deals. Prime Realty delivered.",
+    "author": "Michael Chen",
+    "location": "Singapore",
+    "rating": 5
+  },
+  {
+    "id": "3",
+    "quote": "Transparent, responsive, and knowledgeable. Highly recommend for anyone buying abroad.",
+    "author": "Elena Vasquez",
+    "location": "Madrid, Spain",
+    "rating": 5
+  }
+]
