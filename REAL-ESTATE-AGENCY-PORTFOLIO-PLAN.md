@@ -98,3 +98,87 @@
 6. Integrare CMS sau sursă de date pentru listings (dacă nu folosești doar fișiere).
 7. SEO (meta, sitemap), performanță (imagini, lazy load).
 8. Testare pe dispozitive și browser-uri; publicare.
+
+---
+
+## English version (summary)
+
+### 1. Purpose and target audience
+
+- **Purpose:** Present the agency, team, services, and properties, and generate leads (contact, newsletter).
+- **Audience:** International investors, expats buying/renting, and agency/developer partners. Language: English.
+
+### 2. Disclaimer banner (top of the site)
+
+- **Position:** First visible element on every page, above the header.
+- **Exact text:**  
+  > This is a fictional agency & portfolio project. No real transactions or personal data are involved. — Portfolio of Nicolae-Valentin Dinca
+- Always visible (or collapsible but open by default), subtle but readable strip.
+
+### 3. Page structure (sitemap)
+
+| Page | Main content |
+|------|--------------|
+| **Home** | Hero (tagline, CTA), featured listings (3–6), short services, KPIs/stats, testimonial, final CTA |
+| **About** | Agency story, mission/vision, team (photo + bio), values, optional timeline |
+| **Services** | Offer: sales, lettings, management, investments, consultancy; pricing or “Request a quote” |
+| **Listings / Properties** | Filterable list (type, location, price, beds), cards with image, price, title, link to detail |
+| **Property detail** | Gallery, description, features, map, contact form for that property |
+| **Areas / Locations** | Covered areas (cities/regions) with short description and link to listings per area |
+| **Testimonials / Reviews** | Client quotes, optional ratings / external reviews |
+| **Contact** | Form, email, phone, address, map embed, optional calendar |
+| **Blog / Insights** (optional) | Market articles, tips, local news – good for SEO and authority |
+
+### 4. Global market essentials
+
+- **Language:** 100% English (titles, menus, forms, error messages).
+- **Currency:** Choose one main currency (EUR/USD/GBP), clearly mentioned (e.g. “All prices in EUR”).
+- **Time zones:** On “Book a call” or “Contact”, mention response time and timezone.
+- **Location:** Make it clear which countries/cities you cover – the **Areas** page helps.
+- **Trust:** Licences, memberships (FIABCI, RICS, etc.), years of experience, number of transactions.
+- **GDPR / Privacy:** Privacy Policy link and Cookie banner/Policy for EU visitors.
+
+### 5. Technical features
+
+- **Data (implemented):** Pure files/folders, no CMS or external DB. Listings, team, testimonials, services, and areas live in `data/*.json`. Site is fully static (Next.js `output: 'export'`), ideal as a portfolio/presentation piece.
+- **CMS (alternative, not used here):**  
+  - Simple: JSON/Markdown + build (Next/Astro) ✓ used here.  
+  - Scalable: headless CMS (Strapi, Sanity, Contentful) or Supabase for listings.
+- **Search/filter:** Filters by type (apartment, house, commercial), min–max price, bedrooms, location; no reload or shareable filter URLs.
+- **Forms:** Contact + “Request viewing” / “Get more info” per listing; validation and success/error states; optionally emails via API route (Resend, SendGrid) or DB storage.
+- **SEO:** Meta title/description per page and per listing; clean URLs (e.g. `/listings/[slug]`); `sitemap.xml`; Open Graph for social sharing.
+- **Performance:** Optimised images (WebP/remote), responsive sizes, lazy load; good Core Web Vitals.
+
+### 6. Design & UX
+
+- **Style:** Professional, clean; generous white space; readable fonts; trust-building colours (dark blue, greys, subtle accents).
+- **Imagery:** High-quality photos for properties and team; strong hero image on the homepage.
+- **Mobile-first:** Responsive menu, large tap targets, easy-to-fill forms on mobile.
+- **CTAs:** Clear CTAs such as “Contact us”, “View property”, “Schedule a viewing”, “Subscribe to new listings”.
+
+### 7. Tech stack
+
+- **Frontend:** Next.js (App Router) – good SEO and performance.
+- **Styling:** Tailwind CSS; reusable components (listing card, form, header/footer).
+- **Data:** JSON files (`data/*.json`) or future CMS/API; contact form could use server actions or API routes.
+- **Hosting:** Vercel/Netlify or similar; custom domain (e.g. `agency.nicolae-valentin-dinca.net`).
+
+### 8. Content to prepare
+
+- Copy for: Home, About, Services, Areas (in English).
+- 5–10 property listings (title, description, price, features, 3–5 images each).
+- Team photos + short bios.
+- 3–5 testimonials (name, role/country, quote, optional photo).
+- Brand assets: logo, favicon, colour palette.
+- Legal text: Privacy Policy, Cookie Policy.
+
+### 9. Implementation steps (English)
+
+1. Project setup (Next.js + Tailwind + folder structure).
+2. Global layout: disclaimer banner (top, text from section 2), then header (logo, nav, CTA) and footer (links, contact, social).
+3. Homepage: sections in order (hero, featured listings, services, testimonials, CTA).
+4. Static pages: About, Services, Areas, Contact (with working form).
+5. Listings: listing grid with filters + detail page per property.
+6. Data source or CMS integration for listings (if moving beyond JSON files).
+7. SEO (meta, sitemap), performance (images, lazy load).
+8. Cross-device and cross-browser testing; deploy.
