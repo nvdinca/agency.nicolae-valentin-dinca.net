@@ -25,8 +25,8 @@ export default function CookiesPage() {
         <section>
           <h2 className="text-xl font-semibold text-slate-900">2. Cookies we use</h2>
           <p className="mt-2">
-            This site currently uses only <strong>strictly necessary</strong> (essential) cookies
-            where needed for the site to function:
+            This site uses <strong>strictly necessary</strong> (essential) cookies where needed for
+            the site to function:
           </p>
           <ul className="mt-3 list-disc list-inside space-y-1">
             <li>
@@ -36,8 +36,9 @@ export default function CookiesPage() {
             </li>
           </ul>
           <p className="mt-3">
-            We do <strong>not</strong> use advertising cookies, marketing cookies, or third-party
-            analytics cookies on this version of the site.
+            We use <strong>Vercel Analytics</strong> for anonymised page-view statistics when the
+            site is deployed on Vercel. Vercel Analytics is designed to be privacy-friendly and
+            does not use cookies. We do not use advertising or marketing cookies.
           </p>
         </section>
 
